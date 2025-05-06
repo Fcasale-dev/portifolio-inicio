@@ -1,0 +1,30 @@
+{
+    "en": {
+      "Home": "Home",
+      "About": "About ",
+      "Skills": "Skills",
+      "Education": "Education",
+      "Projects": "Projects",
+      "greeting": "I'm ",
+      "role": "I am:",
+      "aboutMe": "About ",
+      "me": "me",
+      "Aboutme": "About Me ",
+      "whoIsFelipe": "Who is Felipe?",
+      "text1": "I am a Full-Stack Developer with experience in Java, Spring Boot, and MySQL. On the front-end, I have proficiency in HTML, CSS, and JavaScript, as well as knowledge of React Native and responsive design. I am passionate about creating complete and efficient solutions, always striving to improve performance and user experience.",
+      "text2": "My focus is on developing functional, intuitive, and high-quality interfaces, using the best coding practices. I believe in constant learning and am always exploring new technologies to improve my projects and expand my skills.",
+      "text3": "When I'm not coding, I enjoy facing new challenges, always looking for ways to improve as a developer and explore how to enhance my technical and practical skills.",
+      "place": "place: ",
+      "location": "São Carlos, Brazil",
+      "technologies": " Technologies & ",
+      "myEducation": "My Education",
+      "computerScienceDegree": "Bachelor's in Computer Science",
+      "complete": "Complete",
+      "systemsAnalysisDegree": "Systems Analysis and Development",
+      "completed": "Completed",
+      "contactMessage": "It was a pleasure having you here. Let's stay in touch!",
+      "quickLinks": "Quick Links",
+      "contactInformation": "Contact Information",
+      "developedBy": "Developed by"
+    }
+  }
