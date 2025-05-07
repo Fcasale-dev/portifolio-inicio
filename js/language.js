@@ -60,20 +60,30 @@ function startTyped(lang = "en") {
 
 // Detecta mudança no select
 document.addEventListener("DOMContentLoaded", () => {
-  let currentLang = document.getElementById("lang").value || "pt"; // Definindo o idioma padrão como português
-  startTyped(currentLang); // Inicia a animação com o idioma atual
+  const selectElement = document.getElementById("lang");
+  let currentLang = localStorage.getItem("selectedLang") || "pt";
 
-  // Inicializa a tradução com o idioma atual
+  // Define o valor atual no <select>
+  selectElement.value = currentLang;
+
+  // Inicia animação e carrega linguagem
+  startTyped(currentLang);
   loadLanguage(currentLang);
 
-  // Detecta mudança no select de idioma
-  document.getElementById("lang").addEventListener("change", function () {
+  selectElement.addEventListener("change", function () {
     const selectedLang = this.value;
 
     if (selectedLang === "pt") {
-      location.reload(); // Volta ao HTML original e recarrega a página
+      localStorage.removeItem("selectedLang");
+      location.reload(); // Recarrega com padrão (pt)
     } else {
-      loadLanguage(selectedLang); // Carrega as traduções e reinicia a animação
+      localStorage.setItem("selectedLang", selectedLang);
+      location.reload(); // Recarrega para aplicar a linguagem com o novo valor
     }
   });
 });
+
+
+
+
+

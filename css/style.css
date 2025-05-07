@@ -108,6 +108,7 @@ header .navbar ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #DDE4FF;
 }
 
 header .navbar li {
@@ -135,7 +136,9 @@ header .navbar #lang{
     color: #344466;
     font-size: 1.57rem;
     font-weight: 600;
+    text-transform: uppercase;
 } 
+
 
 header .navbar ul #lang:hover{
     color: #4269C2;
@@ -146,7 +149,7 @@ header .navbar ul #lang:hover{
 #menu{
     font-size: 3rem;
     cursor: pointer;
-    color: #DDE4FF;
+    color: #1A3263;
     display: none;
 }
 
@@ -821,7 +824,7 @@ header .navbar ul #lang:hover{
     padding: 1rem 1.5rem;
     font-size: 2rem;
     background: #4269C2;
-    color: rgb(13, 0, 44);
+    color: #DDE4FF;
     border-radius: 50%;
     transition: 1s linear;
     z-index: 1000;

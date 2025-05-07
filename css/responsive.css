@@ -19,6 +19,8 @@
   header .navbar ul {
     flex-flow: column;
     padding: 1rem;
+    background-color: #1A3263;
+    border-radius: 3.8rem;
   }
 
   header .navbar ul li {
@@ -33,16 +35,16 @@
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: #DDE4FF;
     font-size: 2rem;
   }
 
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: #fff;
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #DDE4FF;
+    color: #DDE4FF;
   }
 
   .fa-times {
@@ -52,6 +54,30 @@
   header .navbar.nav-toggle {
     right: 0;
   }
+
+  header .navbar #lang{
+    color: #DDE4FF;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: u;
+    text-align: left;
+    margin-right: 162px;
+    text-transform: uppercase;
+    font-family: "Nunito";
+} 
+
+header .navbar ul #lang:hover{
+  color: #4269C2;
+} 
+
+header .navbar #lang option{
+  color: #1A3263;
+  font-size: 1.57rem;
+  font-weight: 600;
+  text-transform: uppercase;
+} 
+
+
 }
 
 

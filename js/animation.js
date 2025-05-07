@@ -66,7 +66,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 
 const srtop = ScrollReveal({
-    origin: "bottom",
+    origin: "top",
     distance: "80px",
     duration: 1000,
     reset: true,
@@ -95,14 +95,14 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+srtop.reveal('.skills .container', { interval: 400 });
+srtop.reveal('.skills .container .bar', { delay: 200 });
 
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
-
+srtop.reveal('.project-container #projectsContainer', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
