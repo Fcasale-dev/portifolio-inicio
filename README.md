@@ -28,7 +28,7 @@ Este é o repositório do meu portfólio pessoal como desenvolvedor Full Stack, 
 Se quiser conversar ou saber mais sobre mim:
 
 - Email: felipecasale7@gmail.com  
-- LinkedIn: [linkedin.com/in/felipecasale](https://www.linkedin.com/in/felipecasale)
+- LinkedIn: [linkedin.com/in/felipecasale](https://www.linkedin.com/in/felipe-casale-589340158/)
 
 ---
 
